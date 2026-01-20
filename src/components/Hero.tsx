@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import profileImg from "../assets/segundo-copia.png"
+import profileImg from "/Foto.png"
 import linkedinIcon from "../assets/icons/linkedin.svg"
 import githublightIcon from "../assets/icons/GitHub_light.svg"
 import whatsappIcon from "../assets/icons/whatsapp-icon.svg"
