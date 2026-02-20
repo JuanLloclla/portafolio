@@ -14,7 +14,7 @@ export function Hero(){
     const [copied, setCopied] = useState(false)
     
     const copyEmail = () => {
-        navigator.clipboard.writeText('carlosllocllamanuel@gmail.com')
+        navigator.clipboard.writeText('juanllocllamanuel@gmail.com')
         setCopied(true)
         setTimeout(() => setCopied(false), 2000) // Vuelve a "Copy" después de 2s
     }
@@ -44,7 +44,7 @@ export function Hero(){
                 <div className="pb-3 sm:text-base flex flex-col items-start justify-center">
                 <p className="mb-1">Contáctame:</p>
                 <div className="flex items-center gap-2 group relative">
-                    <p className='font-medium'>carlosllocllamanuel@gmail.com</p>
+                    <p className='font-medium'>juanllocllamanuel@gmail.com</p>
                     
                     {/* Botón con tooltip */}
                     <button

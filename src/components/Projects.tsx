@@ -60,15 +60,26 @@ export function Projects(){
                                 <img src={tailwindIcon} alt="Tailwind CSS" className="w-8 h-8"/>
                                 <img src={postgresqlIcon} alt="PostgreSQL" className="w-8 h-8"/>
                             </div>
-                            <a 
-                                href="https://ayfitnessgym-frontend.onrender.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-gray-800 text-white w-fit py-1 px-4 rounded-lg cursor-pointer hover:bg-gray-600 flex items-center gap-1.5"
-                            >
-                                <GrDeploy />
-                                Demo
-                            </a>
+                            <div className="flex gap-2">
+                                <a
+                                    href="https://github.com/JuanLloclla/ayfitness-gym-control"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-gray-800 text-white w-fit py-1 px-3 rounded-lg cursor-pointer hover:bg-gray-600 flex items-center gap-1.5"
+                                >
+                                    <img src={githubDarkIcon} alt="GitHub" className="w-4 h-4"/>
+                                    GitHub
+                                </a>
+                                <a 
+                                    href="https://ayfitnessgym-frontend.onrender.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-gray-800 text-white w-fit py-1 px-4 rounded-lg cursor-pointer hover:bg-gray-600 flex items-center gap-1.5"
+                                >
+                                    <GrDeploy />
+                                    Demo
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </article>

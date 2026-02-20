@@ -7,6 +7,8 @@ import tailwindIcon from "../assets/icons/tailwindcss.svg"
 
 import nodejsIcon from "../assets/icons/nodejs.svg"
 import expressLightIcon from "../assets/icons/Express.js_light.svg"
+import spring from "../assets/icons/spring.svg"
+import dotnet from "../assets/icons/dotnet.svg"
 
 import postgresqlIcon from "../assets/icons/postgresql.svg"
 import mysqlLightIcon from "../assets/icons/MySQL_light.svg"
@@ -14,6 +16,7 @@ import supabaseIcon from "../assets/icons/supabase.svg"
 
 import gitIcon from "../assets/icons/git.svg"
 import githublightIcon from "../assets/icons/GitHub_light.svg"
+import postman from "../assets/icons/postman.svg"
 
 import phpLightIcon from "../assets/icons/Php_light.svg"
 import javaIcon from "../assets/icons/java.svg"
@@ -44,6 +47,8 @@ export function Skills(){
                     <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                         {SkillsItem(nodejsIcon, "Node.js", "Node.js")}
                         {SkillsItem(expressLightIcon, "Express.js", "Express.js")}
+                        {SkillsItem(spring, "Spring Boot", "Spring Boot")}
+                        {SkillsItem(dotnet, "ASP.NET", "ASP.NET")}
                     </div>
                 </div>
                 <div>
@@ -59,6 +64,7 @@ export function Skills(){
                     <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                         {SkillsItem(gitIcon, "Git", "Git")}
                         {SkillsItem(githublightIcon, "GitHub", "GitHub")}
+                        {SkillsItem(postman, "Postman", "Postman")}
                     </div>
                 </div>
                 <div>
