@@ -5,7 +5,7 @@ import linkedinIcon from "../assets/icons/linkedin.svg"
 import githublightIcon from "../assets/icons/GitHub_light.svg"
 import whatsappIcon from "../assets/icons/whatsapp-icon.svg"
 
-import cv from "/CV-Juan-Lloclla-Manuel.pdf"
+import cv from "/cv_juan_lloclla_backend_developer.pdf"
 import { FaFileDownload, FaCheckCircle, FaCopy, FaCheck } from "react-icons/fa";
 
 import { RedesItems } from "./RedesItems"
@@ -33,13 +33,13 @@ export function Hero(){
                 <h3 className="font-kumbh font-semibold text-gray-700 text-xl lg:text-2xl">Hello World!👋</h3>
                 <h1 className="font-bold text-sky-800 text-2xl py-2 lg:text-3xl">Juan Lloclla Manuel</h1>
                 <p className="pb-2">
-                    Desarrollador Full Stack enfocado en crear soluciones web modernas y escalables. Con 2 años de experiencia 
-                    desarrollando proyectos personales y académicos, me especializo en el stack React, TypeScript, Node.js 
-                    y PostgreSQL.
+                    Desarrollador backend especializado en el ecosistema Java (Spring Boot), con experiencia en diseño y
+                    desarrollo de APIs REST. Manejo de Spring Security, autenticación con JWT (Auth0), migraciones con
+                    Flyway y persistencia con PostgreSQL y MySQL.
                 </p>
                 <p className="pb-3 lg:pb-5">
-                    Me caracterizo por una rápida curva de aprendizaje y un enfoque en escribir código limpio y mantenible. Busco 
-                    integrarme a un equipo de desarrollo donde pueda aportar desde el primer día y seguir creciendo profesionalmente.
+                    Enfocado en crear soluciones web modernas y escalables. Con 2 años de experiencia 
+                    desarrollando proyectos personales y académicos. Tambien uso tecnologías full stack como React y Node.js.
                 </p>
                 <div className="pb-3 sm:text-base flex flex-col items-start justify-center">
                 <p className="mb-1">Contáctame:</p>
@@ -96,7 +96,7 @@ export function Hero(){
                 <div className="flex gap-2 justify-center">
                     <a
                         href={cv}
-                        download="CV-Juan-Lloclla-Manuel.pdf"
+                        download="cv_juan_lloclla_developer.pdf"
                         className="
                             flex items-center justify-center gap-2 bg-sky-700 shadow-lg shadow-sky-700/50
                             text-white text-sm py-2 px-3 rounded-full cursor-pointer hover:bg-sky-800 transition-colors

@@ -17,6 +17,7 @@ import supabaseIcon from "../assets/icons/supabase.svg"
 import gitIcon from "../assets/icons/git.svg"
 import githublightIcon from "../assets/icons/GitHub_light.svg"
 import postman from "../assets/icons/postman.svg"
+import docker from "../assets/icons/docker.svg"
 
 import phpLightIcon from "../assets/icons/Php_light.svg"
 import javaIcon from "../assets/icons/java.svg"
@@ -32,23 +33,24 @@ export function Skills(){
             </h2>
             <div className="grid gap-4">
                 <div>
+                    <h3 className="font-semibold text-gray-700 mb-2 text-lg">Backend</h3>
+                    <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+                        {SkillsItem(spring, "Spring Boot", "Spring Boot")}
+                        {SkillsItem(javaIcon, "Java", "Java")}
+                        {SkillsItem(nodejsIcon, "Node.js", "Node.js")}
+                        {SkillsItem(javascriptIcon, "JavaScript", "JavaScript")}
+                        {SkillsItem(expressLightIcon, "Express.js", "Express.js")}
+                        {SkillsItem(dotnet, "ASP.NET", "ASP.NET")}
+                    </div>
+                </div>
+                <div>
                     <h3 className="font-semibold text-gray-700 mb-2 text-lg">Frontend</h3>
                     <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                         {SkillsItem(reactLightIcon, "React", "React")}
-                        {SkillsItem(javascriptIcon, "JavaScript", "JavaScript")}
                         {SkillsItem(typescriptIcon, "TypeScript", "TypeScript")}
                         {SkillsItem(htmlIcon, "HTML", "HTML")}
                         {SkillsItem(cssIcon, "CSS", "CSS")}
                         {SkillsItem(tailwindIcon, "Tailwind CSS", "Tailwind CSS")}
-                    </div>
-                </div>
-                <div>
-                    <h3 className="font-semibold text-gray-700 mb-2 text-lg">Backend</h3>
-                    <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-                        {SkillsItem(nodejsIcon, "Node.js", "Node.js")}
-                        {SkillsItem(expressLightIcon, "Express.js", "Express.js")}
-                        {SkillsItem(spring, "Spring Boot", "Spring Boot")}
-                        {SkillsItem(dotnet, "ASP.NET", "ASP.NET")}
                     </div>
                 </div>
                 <div>
@@ -65,13 +67,13 @@ export function Skills(){
                         {SkillsItem(gitIcon, "Git", "Git")}
                         {SkillsItem(githublightIcon, "GitHub", "GitHub")}
                         {SkillsItem(postman, "Postman", "Postman")}
+                        {SkillsItem(docker, "Docker", "Docker")}
                     </div>
                 </div>
                 <div>
                     <h3 className="font-semibold text-gray-700 mb-2 text-lg">Otros Lenguajes</h3>
                     <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                         {SkillsItem(phpLightIcon, "PHP", "PHP")}
-                        {SkillsItem(javaIcon, "Java", "Java")}
                         {SkillsItem(pythonIcon, "Python", "Python")}
                     </div>
                 </div>

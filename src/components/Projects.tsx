@@ -1,7 +1,11 @@
 import screenshotSistemaGym from "../assets/screenshot-projects/sistema-gym.png"
 import screenshotComunicatec from "../assets/screenshot-projects/comunicatec.png"
+import screenshotForoHub from "../assets/screenshot-projects/forohub.png"
 
 import githubDarkIcon from "../assets/icons/GitHub_dark.svg"
+
+import spring from "../assets/icons/spring.svg"
+import intellijidea from "../assets/icons/intellijidea.svg"
 
 import reactLightIcon from "../assets/icons/React_light.svg"
 import nodejsIcon from "../assets/icons/nodejs.svg"
@@ -25,6 +29,61 @@ export function Projects(){
                 Proyectos
             </h2>
             <div className="flex flex-col gap-5">
+                <article 
+                    className="
+                        border border-gray-400 rounded-xl p-4
+                    "
+                >
+                    <h4 className="font-semibold text-xl mb-4">Foro Hub API - REST</h4>
+                    <div 
+                        className="
+                            flex flex-col gap-3
+                            md:flex-row md:justify-center md:items-center
+                        "
+                    >
+                        <div>
+                            <img 
+                                src={screenshotForoHub} alt="Foro Hub API"
+                                className="rounded-2xl hover:scale-102 transition-transform md:w-200 md:h-80"    
+                            />
+                        </div>
+                        <div className="flex flex-col gap-2.5 md:max-w-75">
+                            <div className="text-gray-700">
+                                <p>
+                                    API REST para gestión de foros de discusión, desarrollada con Spring Boot 3 y Java 17. Permite a 
+                                    los usuarios registrarse, autenticarse y gestionar tópicos con un sistema de seguridad basado en JWT 
+                                    con refresh token rotation.
+                                </p>
+                            </div>
+                            <div className="bg-gray-400 text-white text-sm flex items-center justify-center py-2 px-2 max-w-28 rounded-2xl">Backend</div>
+                            <div className="flex gap-2">
+                                <img src={spring} alt="SpringBoot" className="w-8 h-8"/>
+                                <img src={mysqlLightIcon} alt="MySQL" className="w-8 h-8"/>
+                                <img src={intellijidea} alt="IntelliJ IDEA" className="w-8 h-8"/>
+                            </div>
+                            <div className="flex gap-2">
+                                <a
+                                    href="https://github.com/JuanLloclla/forohub"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-gray-800 text-white w-fit py-1 px-3 rounded-lg cursor-pointer hover:bg-gray-600 flex items-center gap-1.5"
+                                >
+                                    <img src={githubDarkIcon} alt="GitHub" className="w-4 h-4"/>
+                                    GitHub
+                                </a>
+                                <a 
+                                    href="https://forohubgateway.vercel.app"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-gray-800 text-white w-fit py-1 px-4 rounded-lg cursor-pointer hover:bg-gray-600 flex items-center gap-1.5"
+                                >
+                                    <GrDeploy />
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
                 <article 
                     className="
                         border border-gray-400 rounded-xl p-4
